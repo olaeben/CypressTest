@@ -2,7 +2,6 @@
   "scripts": {
     "test": "npx cypress run --spec cypress/e2e/login.spec.js"
   },
-  
   "devDependencies": {
     "cypress": "^12.1.0",
     "cypress-browser-permissions": "^1.1.0"
