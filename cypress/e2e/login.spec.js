@@ -2,7 +2,7 @@ import { CommonPage, LoginPage } from '../support/pages';
 
 context('Login', () => {
   beforeEach(() => {
-    cy.visit('/')
+    cy.visit('https://www.saucedemo.com/')
   })
 
   describe('Page', () => {
