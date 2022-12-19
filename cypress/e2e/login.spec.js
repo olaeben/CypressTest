@@ -74,7 +74,6 @@ context('Login', () => {
 
       LoginPage.ErrorMessage()
         .should('have.text', 'Epic sadface: Sorry, this user has been locked out.')
-
     })
   })
 })
