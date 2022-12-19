@@ -19,7 +19,6 @@ describe('SauceDemo checkout process', () => {
       cy.get('[data-test="continue"]').click();
       cy.get('[data-test="finish"]').click();
       cy.get('.complete-header').should('contain', 'THANK YOU FOR YOUR ORDER');
-      
     });
   });
   

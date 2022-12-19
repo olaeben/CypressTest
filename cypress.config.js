@@ -1,6 +1,7 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
+  projectId: '1o3vhy',
 //   projectId: '7t6z3m',
   viewportWidth: 1920,
   viewportHeight: 1080,
