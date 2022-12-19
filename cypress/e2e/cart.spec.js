@@ -1,6 +1,6 @@
 import { CommonPage } from '../support/pages';
 
-describe('Sauce Demo checkout process', () => {
+describe('SauceDemo checkout process', () => {
     beforeEach(() => {
       cy.visit('/')
       cy.get('#user-name').type('standard_user');
@@ -8,7 +8,6 @@ describe('Sauce Demo checkout process', () => {
       cy.get('#login-button').click();
     });
 
-    
     it('should add items to the cart and checkout', () => {
       cy.get('#item_4_title_link').click();
       cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click();

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "npx cypress run --spec cypress/e2e/login.spec.js"
+    "test": "npx cypress run"
   },
   "devDependencies": {
     "cypress": "^12.1.0",
