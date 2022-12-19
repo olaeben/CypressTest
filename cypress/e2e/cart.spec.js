@@ -7,6 +7,7 @@ describe('Sauce Demo checkout process', () => {
       cy.get('#password').type('secret_sauce');
       cy.get('#login-button').click();
     });
+    
   
     it('should add items to the cart and checkout', () => {
       cy.get('#item_4_title_link').click();
