@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "npx cypress run --record --key b2add80e-b05d-4f82-b4fe-b1ebe6f89da6"
+    "test": "npx cypress run --record --key b2add80e-b05d-4f82-b4fe-b1ebe6f89da6 --parallel"
   },
   "devDependencies": {
     "cypress": "^12.1.0",
